@@ -14,20 +14,6 @@ public class Main {
 
 	public static void main(String[] args) {
 
-		 class A {
-
-		}
-		 class B {
-
-			B() {
-				System.out.println(this.getClass());
-				System.out.println(this.hashCode());
-				System.out.println(super.getClass());
-				System.out.println(super.hashCode());
-			}
-		}
-		B b = new B();
-
 		Shop shop = new Shop("Billa", "Pernik", 0);
 		ArrayList<InKgProducts> listOfProducts = new ArrayList<>();
 		ArrayList<InBroiProducts> listOfProductsbr = new ArrayList<>();
